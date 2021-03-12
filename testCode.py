@@ -1,6 +1,6 @@
-def broken_add(a, b):
-    return a + a
+def add(a, b):
+    return a + b
 
 
 print('Adding 3 and 5')
-print(broken_add(3, 5))
+print(add(3, 5))
